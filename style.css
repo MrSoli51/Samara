@@ -85,9 +85,9 @@ body {
   top: 6px;
   left: 8px;
   font-size: 11px;
-  color: var(--text-mute);
+  color: var(--text);
 }
-.card .face { font-size: 30px; font-weight: 600; line-height: 1; }
+.card .face { font-size: 30px; font-weight: 600; line-height: 1; color: var(--text); }
 .card .face.red { color: var(--red-suit); }
 .card .face.unknown { color: var(--text-mute); font-weight: 500; }
 .card .face.empty { color: var(--text-mute); font-weight: 400; font-size: 26px; }
