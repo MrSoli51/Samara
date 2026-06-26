@@ -23,8 +23,8 @@ const RANKS = [
 ];
 
 const KINGS = [
-  { label: "K\u2665", points: 0, red: true },   // red king = 0 (best)
-  { label: "K\u2660", points: 13, red: false }, // black king = 13 (worst)
+  { label: "K", points: 0, red: true },   // red king = 0 (best)
+  { label: "K", points: 13, red: false }, // black king = 13 (worst)
 ];
 
 let hand = [
